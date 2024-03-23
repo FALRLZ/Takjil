@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Custom Border Start */
+.border-custom {
+  border: 1px solid #444;
+  transition: all 0.4s ease-in-out;
+}
+/* Custom Border End */
+
+/* Navbar Start */
+.navbar-brand {
+  color: white !important;
+}
+.navbar-nav {
+  --bs-navbar-nav-link-padding-x: 1.5rem;
+  font-size: 0.8rem;
+}
+.navbar-nav .nav-link {
+  color: white;
+  transition: 200ms;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  border-color: #6f887b;
+}
+
+.bgc {
+  background: #6f887b;
+  padding: 10px;
+}
+
+.bgc nav a {
+  color: white;
+}
+/* Navbar End */
+
+.home {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.caption {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: white;
+}
+.caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-shadow: 0.05rem 0.05rem 0.2rem rgba(255, 255, 255, 0.5); /* Mengubah warna shadow menjadi putih */
+  color: #6f887b; /* Mengubah warna teks agar lebih mudah dibaca */
+}
+
+.caption h5 {
+  font-size: 1.5rem;
+  text-shadow: 0.05rem 0.05rem 0.1rem rgba(255, 255, 255, 0.5); /* Mengubah warna shadow menjadi putih */
+  padding-bottom: 1.6rem;
+  color: #6f887b; /* Mengubah warna teks agar lebih mudah dibaca */
+}
+
+/* Tentang Start */
+#tentang .h1 {
+  color: #6f887b;
+}
+/* Tentang End */
+
+/* Main Start */
+.main .row {
+  background-color: #6f887b;
+}
+
+.main h1 {
+  color: #6f887b;
+}
+/* Main Start */
+
+/* Footer Start */
+.end h1 {
+  color: #6f887b;
+}
+/* Footer End */
